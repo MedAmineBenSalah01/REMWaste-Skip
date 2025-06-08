@@ -9,6 +9,15 @@ A modern, responsive redesign of a skip hire selection page built with React and
 
 This project is a complete redesign of a skip hire selection page that maintains all original functionality while delivering a fresh, modern user experience. The application fetches real skip data from the WeWantWaste API and presents it in an intuitive, responsive interface.
 
+Main Page redesign : 
+
+![alt text](UI.PNG)
+
+
+Skip Selection : 
+
+![alt text](Skip_selection.PNG)
+
 ## ✨ Key Features
 
 - **Complete Visual Redesign**: Modern gradient backgrounds, card-based layouts, and contemporary styling
