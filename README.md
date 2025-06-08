@@ -135,5 +135,5 @@ Potential improvements for future iterations:
 
 
 
-**Live Demo**: [Sandbox Link]
+**Live Demo**: https://codesandbox.io/p/github/MedAmineBenSalah01/REMWaste-Skip/main?workspaceId=ws_BAcrYsaQ9PLq9cX7Q65mCK
 **Repository**: https://github.com/MedAmineBenSalah01/REMWaste-Skip
