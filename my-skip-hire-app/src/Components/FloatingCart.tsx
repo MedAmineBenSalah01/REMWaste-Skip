@@ -1,5 +1,5 @@
 import { CheckCircle, Truck,Shield, AlertTriangle,  X } from 'lucide-react';
-import { calculateTotalPrice, getSkipCapacity } from '../utils/skips_utils';
+import {  getSkipCapacity } from '../utils/skips_utils';
 
 interface Skip {
   size: string;
@@ -43,8 +43,7 @@ export const FloatingCart = ({ selectedSkip, onClose, onContinue } : FloatingCar
               <p className="text-sm text-gray-600">{getSkipCapacity(selectedSkip.size)} • {selectedSkip.hire_period_days} days</p>
             </div>
             <div className="text-right">
-              <div className="text-2xl font-bold text-blue-600">£{calculateTotalPrice(selectedSkip.price_before_vat, selectedSkip.vat)}</div>
-              <div className="text-xs text-gray-500">Inc. VAT</div>
+              <div className="text-2xl font-bold text-blue-600">£{selectedSkip.price_before_vat}</div>
             </div>
           </div>
           <div className="flex items-center justify-center space-x-4 mb-4 text-sm">

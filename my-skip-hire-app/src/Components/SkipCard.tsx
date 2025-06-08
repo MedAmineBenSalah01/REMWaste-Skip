@@ -1,5 +1,5 @@
 import { CheckCircle, Truck, Calendar,  Shield, AlertTriangle } from 'lucide-react';
-import { calculateTotalPrice, getSkipCapacity } from '../utils/skips_utils';
+import {  getSkipCapacity } from '../utils/skips_utils';
 
 
 interface Skip {
@@ -19,7 +19,7 @@ interface SkipCardProps {
 }
 
 export const SkipCard = ({ skip, isSelected, onSelect } : SkipCardProps) => {
-  const totalPrice = calculateTotalPrice(skip.price_before_vat, skip.vat);
+  const totalPrice = skip.price_before_vat;
   const capacity = getSkipCapacity(skip.size);
   
   return (

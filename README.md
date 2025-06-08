@@ -18,6 +18,7 @@ This project is a complete redesign of a skip hire selection page that maintains
 - **Error Handling**: Comprehensive error states with retry functionality
 - **Loading States**: Smooth loading animations and skeleton screens
 
+
 ## 🚀 Technical Stack
 
 - **React 18** with Hooks (useState, useEffect)
